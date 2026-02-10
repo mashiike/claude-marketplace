@@ -1,0 +1,21 @@
+{
+  "name": "mashiike",
+  "owner": {
+    "name": "mashiike-plugins"
+  },
+  "metadata": {
+    "description": "個人的に開発・公開しているClaudeプラグインのマーケットプレイス。主に砂場"
+  },
+  "plugins": [
+    {
+      "name": "werewolf-game",
+      "source": "./plugins/werewolf-game",
+      "description": "Agent Teamsで人狼ゲームを実行する。GMとして9人のAIプレイヤーでターン制人狼を進行",
+      "category": "entertainment",
+      "version": "0.2.0",
+      "author": {
+        "name": "mashiike"
+      }
+    }
+  ]
+}
