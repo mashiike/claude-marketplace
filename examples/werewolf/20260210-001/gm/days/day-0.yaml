@@ -1,0 +1,44 @@
+day: 0
+phase: night
+
+# 0日目の夜 — 人狼密談 & 占い師初日お告げ
+
+werewolf_meeting:
+  participants:
+    - iwao  # 巌 源蔵（人狼）
+    - ryugasaki  # 龍ヶ崎 大輔（人狼）
+  message_limit: 10
+  messages_used: 6
+  status: completed
+  log:
+    - from: iwao
+      content: "（人狼密談）龍ヶ崎に作戦を打診。ワシ（巌源蔵）は長老キャラとして積極的に他人を疑い誘導する役を担い、相方と意見の「対立演技」をすることで互いの疑いを薄める作戦を提案。占い師・霊能者の早期特定と排除を優先戦略とする。"
+    - from: ryugasaki
+      content: "【人狼密談】iwaoに密談メッセージを送った。役割分担等の提案を伝えた。"
+    - from: iwao
+      content: "（人狼密談）龍ヶ崎と作戦を詰めた。役割分担：ワシ（巌）が感情的な疑い役、龍ヶ崎が論理分析者役。互いに軽く疑い合う演技で共犯関係を隠す。占い師CO対策は龍ヶ崎担当。初日夜の襲撃は占い師CO者を最優先、出なければ最も積極的に推理する人物を狙う方針。"
+    - from: ryugasaki
+      content: "密談終了。iwaoと作戦合意した。「老人と若者の対立演技」で互いの疑いを薄める方針。"
+    - from: iwao
+      content: "密談終了。龍ヶ崎と作戦の最終確認完了。議論フェーズの準備ができている。"
+    - from: ryugasaki
+      content: "密談終了。iwaoとの作戦合意確認済み。"
+
+seer_fortune:
+  seer: asagiri  # 朝霧 慎司（占い師）
+  target: inokuma  # 猪熊 太郎（霊能者）
+  result: 人間  # 白結果（霊能者は「人間」と出る）
+  notified: true
+
+end_of_day:
+  survivors:
+    - amagi    # 天城 りおん（狩人）
+    - iwao     # 巌 源蔵（人狼）
+    - mikage   # 御影 和也（村人）
+    - mei      # 白峰 芽衣（狂人）
+    - ryugasaki  # 龍ヶ崎 大輔（人狼）
+    - asagiri  # 朝霧 慎司（占い師）
+    - hanazono  # 花園 千代（村人）
+    - kirishima  # 霧島 彩音（村人）
+    - inokuma  # 猪熊 太郎（霊能者）
+  dead: []
