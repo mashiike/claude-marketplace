@@ -1,0 +1,36 @@
+day: 5
+phase: morning
+
+morning:
+  casualties: []  # 護衛成功により襲撃死なし（4夜連続GJ）
+  medium_result: "龍ヶ崎蓮 = 人狼"
+
+discussion:
+  order:
+    - amagi
+    - iwao
+    - mikage
+    - mei
+    - inokuma
+  round_1:
+    - speaker: amagi
+      content: "やった！猪熊さんの霊能判定で龍ヶ崎さんが人狼って確定した！あたしたちの判断、正しかったんだよね！朝霧さん、花園さん、霧島さんの3人の警告を信じてよかった！そして、龍ヶ崎さんの遺言——「相方は巌源蔵」。これで全部つながったよ。巌さんは4日目の2周目で「慎重に判断しろ」って言って、龍ヶ崎さんを守ろうとしてたよね。あれは仲間を守ろうとしてたんだ。4夜連続で襲撃がないのも説明つく。狩人が誰かを守り続けてるんだよ。猪熊さんとか御影さんとか、重要な人が守られてるか、人狼が襲撃できなかったんだと思う。もう証拠は揃ってる。龍ヶ崎さん=人狼確定、龍ヶ崎さんの遺言で巌さん=人狼。あたしは今日、巌さんに投票する。これで人狼2人を全員処刑して、村人陣営の勝利！以上！"
+  round_2: []
+
+voting:
+  votes: []
+  executed: null
+  testament: null
+
+night:
+  seer_target: null
+  seer_result: null
+  guard_target: null
+  attack_target: null
+  killed: null
+
+shutdowns: []
+
+end_of_day:
+  survivors: []
+  dead: []
